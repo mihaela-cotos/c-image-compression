@@ -16,7 +16,7 @@ The output image is also in the P6 format. The header contains the image size an
 ### Compression
 To compress an image, use the following command:
 ```
-./compress -c1/-c2 factor input_file output_file
+./quadtree -c1/-c2 factor input_file output_file
 ```
 - c1: Perform compression with level statistics output.
 - c2: Perform compression with quadtree structure output.
@@ -28,7 +28,7 @@ To compress an image, use the following command:
 To decompress an image, use the following command:
 
 ```
-./compress -d input_file output_file
+./quadtree -d input_file output_file
 ```
 
 - d: Decompress the input file.
